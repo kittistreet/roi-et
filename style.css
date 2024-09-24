@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+h3 {
+    color: rgb(65, 65, 65);
+}
+
+h5 {
+    color: rgb(65, 65, 65);
+}
+
+img {
+    border-radius: 15px;
+    width: 500px;
+    height: 250px;
+}
+
+.card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
